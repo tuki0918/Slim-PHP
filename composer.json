@@ -6,7 +6,8 @@
         "slim/views": "0.1.*",
         "twig/twig": "~1.0",
         "davedevelopment/phpmig": "*",
-        "pimple/pimple": "1.*"
+        "pimple/pimple": "1.*",
+        "cartalyst/sentry": "2.1.*"
     },
     "autoload": {
         "files": [
