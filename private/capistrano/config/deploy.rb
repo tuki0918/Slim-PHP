@@ -50,7 +50,7 @@ namespace :deploy do
   task :composer_install do
     on roles(:app) do
       within release_path do
-        execute "cd #{release_path} && composer install"
+        execute :composer, 'install'
       end
     end
   end
